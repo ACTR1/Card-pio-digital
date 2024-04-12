@@ -1,0 +1,21 @@
+Tecnologias 
+- html
+- Css
+- Node.js
+- tailwind
+
+Conexão do node js = "npx tailwindcss -i ./style/style.css -o ./style/output.css --watch"
+
+>> IMAGEM DE FUNDO EM EXTENSÃO <<
+
+extend: {
+      backgroundImage:{
+        "home":"url('/assets/bg.png')"
+      }
+
+      header bg-home 
+
+      >> Relatório de bug <<
+      Toda vez que ele para de atualizar no live server é preciso reinicializar uma 
+      nova conexão no prompt de comando usando o npx tailwindcss -i ./style/style.css -o ./style/output.css --watch
+      Aparentemente O node.js utiliza toda a memória e por isso tem que reiniciar 
